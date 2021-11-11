@@ -2,11 +2,11 @@ const request = require('request');
 const cheerio = require('cheerio');
 const WordPOS = require('wordpos'),
 
-    wordpos = new WordPOS();
+wordpos = new WordPOS();
 var wordMap = {};
 
 const scrap = (error, response, html) => {
-    console.log("now entered the block of scrap...");
+    // console.log("now entered the block of scrap...");
     if (!error && response.statusCode == 200) {
         const $ = cheerio.load(html);
         // console.log(html);
@@ -24,7 +24,7 @@ const scrap = (error, response, html) => {
                 let count = currentWordCount ? currentWordCount : 0;
                 wordMap[word[i]] = count + 1;
             }
-            // console.log(wordMap);
+            console.log(wordMap);
         });
     }
 };
@@ -32,4 +32,4 @@ const scrap = (error, response, html) => {
 const search = "Taj mahal";
 search.split(" ").join("_");
 request(`https://en.wikipedia.org/wiki/${search}`, scrap);
-console.log(wordMap);
+// console.log(wordMap);

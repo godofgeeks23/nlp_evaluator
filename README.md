@@ -36,3 +36,22 @@ This project is about a developing a tool that can be used for evaluating variou
 9. Plagiarism checking [![Pending](https://img.shields.io/badge/Incomplete-Pending-orange)]()
 
 10. GUI [![Ongoing](https://img.shields.io/badge/Ongoing-In%20Progress-blue)]()
+
+
+## Installation and Usage
+
+### Python
+
+```bash
+  pip install -r ./python/requirements.txt
+  
+  python ./python/00_index.py    
+```
+    
+### JavaScript
+
+```bash
+  npm install request cheerio wordpos
+  
+  node scrapper.js
+```
