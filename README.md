@@ -17,20 +17,20 @@ This project is about a developing a tool that can be used for evaluating variou
 
 ## Issues - 
 
-[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()1. Scraping content from a Page
+1. Scraping content from a Page[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()
 
-[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()2. Cleaning the content
+2. Cleaning the content[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()
 
-[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()3. Tokenizing
+3. Tokenizing[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()
 
-[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()4. Removing Stop Words
+4. Removing Stop Words[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()
 
-[![Done](https://img.shields.io/badge/Ongoing-In%20Progress-blue)]()5. Tagging Parts of Speech
+5. Tagging Parts of Speech[![Done](https://img.shields.io/badge/Ongoing-In%20Progress-blue)]()
 
-[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()6. Extracting keywords
+6. Extracting keywords[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()
 
-[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()7. Spelling Check
+7. Spelling Check[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()
 
-[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()8. Grammar Check
+8. Grammar Check[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()
 
-[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()9. Plagiarism checking
+9. Plagiarism checking[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()
