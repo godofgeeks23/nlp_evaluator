@@ -11,7 +11,7 @@ This project is about a developing a tool that can be used for evaluating variou
     
 3. A tool that takes certain keywords and then develop a score based on the correct use of those keywords.
 
-* Language: Python  
+* Language: Python, JavaScript  
 * GUI: Yes
 * A platform independent tool
 
