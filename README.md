@@ -15,7 +15,7 @@ This project is about a developing a tool that can be used for evaluating variou
 * GUI: Yes
 * A platform independent tool
 
-## Issues - 
+## Objectives - 
 
 1. Scraping content from a Page[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()
 
@@ -25,12 +25,12 @@ This project is about a developing a tool that can be used for evaluating variou
 
 4. Removing Stop Words[![Done](https://img.shields.io/badge/Completed-Done-brightgreen)]()
 
-5. Tagging Parts of Speech[![Done](https://img.shields.io/badge/Ongoing-In%20Progress-blue)]()
+5. Tagging Parts of Speech[![Ongoing](https://img.shields.io/badge/Ongoing-In%20Progress-blue)]()
 
-6. Extracting keywords[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()
+6. Extracting keywords[![Pending](https://img.shields.io/badge/Incomplete-Pending-orange)]()
 
-7. Spelling Check[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()
+7. Spelling Check[![Pending](https://img.shields.io/badge/Incomplete-Pending-orange)]()
 
-8. Grammar Check[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()
+8. Grammar Check[![Pending](https://img.shields.io/badge/Incomplete-Pending-orange)]()
 
-9. Plagiarism checking[![Done](https://img.shields.io/badge/Incomplete-Pending-orange)]()
+9. Plagiarism checking[![Pending](https://img.shields.io/badge/Incomplete-Pending-orange)]()
