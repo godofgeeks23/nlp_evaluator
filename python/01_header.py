@@ -25,6 +25,3 @@ for key,val in freq.items():
     print(str(key) + ':' + str(val))
 
 freq.plot(20, cumulative=False)
-
-
-
