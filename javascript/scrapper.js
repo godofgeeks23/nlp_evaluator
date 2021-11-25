@@ -2,7 +2,7 @@ const request = require('request');
 const cheerio = require('cheerio');
 const WordPOS = require('wordpos'),
 
-wordpos = new WordPOS();
+    wordpos = new WordPOS();
 var wordMap = {};
 
 const scrap = (error, response, html) => {
