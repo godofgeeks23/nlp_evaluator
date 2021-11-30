@@ -4,16 +4,16 @@ from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
 import re
 
-response =  urllib.request.urlopen('https://en.wikipedia.org/wiki/SpaceX')
+response = urllib.request.urlopen('https://en.wikipedia.org/wiki/SpaceX')
 
 html = response.read()
 
-soup = BeautifulSoup(html,'html.parser')
-text = soup.get_text(strip = True)
+soup = BeautifulSoup(html, 'html.parser')
+text = soup.get_text(strip=True)
 # set([text.parent.name for text in soup.find_all(text=True)])
 text = ''
 for paragraph in soup.find_all('p'):
-    text += paragraph.text    
+    text += paragraph.text
 text = re.sub(r'\[.*?\]+', '', text)
 text = text.replace('\n', '')
 print(text)
@@ -28,6 +28,6 @@ for token in tokens:
 freq = nltk.FreqDist(clean_tokens)
 
 # for key,val in freq.items():
-    # print(str(key) + ':' + str(val))
+# print(str(key) + ':' + str(val))
 
 freq.plot(20, cumulative=False)
