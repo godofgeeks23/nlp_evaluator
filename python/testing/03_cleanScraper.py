@@ -17,7 +17,7 @@ for paragraph in soup.find_all('p'):
 text = re.sub(r'\[.*?\]+', '', text)
 text = text.replace('\n', '')
 
-print(text.encode('utf-8')) 
+# print(text.encode('utf-8')) 
 
 # file1 = open("myfile.txt","w")#write mode
 # file1.write(text)
@@ -30,6 +30,7 @@ clean_tokens = tokens[:]
 for token in tokens:
     if token in stopwords.words('english'):
         clean_tokens.remove(token)
+
 freq = nltk.FreqDist(clean_tokens)
 
 # for key,val in freq.items():
