@@ -42,5 +42,3 @@ print("\npos_tagged_words - ", pos_tagged_words)
 lemmatizer = WordNetLemmatizer()
 lemmatized_words = [lemmatizer.lemmatize(word) for word in filtered_list]
 print("\nlemmatized_words - ", lemmatized_words)
-
-
