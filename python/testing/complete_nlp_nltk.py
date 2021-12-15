@@ -6,6 +6,8 @@ from nltk.stem.snowball import SnowballStemmer
 import nltk
 from nltk.stem import WordNetLemmatizer
 
+print("Welcome to the NLTK Demo!")
+
 text = """Muad'Dib learned rapidly because his first training was in how to learn. And the first lesson of all 
 was the basic trust that he could learn. It's shocking to find how many people do not believe they can learn, and h
 ow many more believe learning to be difficult."""
